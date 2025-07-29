@@ -25,7 +25,7 @@ public class PracticeQuestion1 {
         float marks5 = val7.nextFloat();
         float sum = marks1 + marks2 + marks3 + marks4 + marks5;
         float avg = sum/5;
-        float percentage = (sum*100)/500;
+        float percent = (sum*100)/500;
         System.out.print("Name:");
         System.out.println(fullName);
         System.out.print("Obtained Marks:");
@@ -33,7 +33,7 @@ public class PracticeQuestion1 {
         System.out.print("Average:");
         System.out.println(avg);
         System.out.print("Percentage:");
-        System.out.println(percentage);
+        System.out.println(percent);
 
 
     }
