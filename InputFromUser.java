@@ -17,7 +17,7 @@ public class InputFromUser {
         System.out.println(fullName);
         System.out.print("Enter Your Height");
         Scanner value = new Scanner(System.in);
-        float height = value.nextFloat(); 
+        float height = value.nextFloat();  //nextFloat()to read float
         System.out.println("Your Height:");
         System.out.println(height);
         System.out.print("Enter Your Group");
