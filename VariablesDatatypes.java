@@ -13,8 +13,9 @@ public class VariablesDatatypes {
         System.out.println(height);
         double value = 445.88d;
         System.out.println(value);
-        long big = 6668887666666666668L;
+        long big = 6668887666666666668L; //always ends with L
         System.out.println(big);
+        
     }
 }
 
