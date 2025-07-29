@@ -32,7 +32,7 @@ public class PracticeQuestion1 {
         System.out.println(sum);
         System.out.print("Average:");
         System.out.println(avg);
-        System.out.print("Percentage");
+        System.out.print("Percentage:");
         System.out.println(percentage);
 
 

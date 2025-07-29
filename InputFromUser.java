@@ -15,10 +15,10 @@ public class InputFromUser {
         String fullName = input.nextLine(); //nextLine() reads complete line
         System.out.print("Your Name:");
         System.out.println(fullName);
-        System.out.print("Enter Your Height");
+        System.out.print("Enter Your Height:");
         Scanner value = new Scanner(System.in);
         float height = value.nextFloat();  //nextFloat()to read float
-        System.out.println("Your Height:");
+        System.out.print("Your Height:");
         System.out.println(height);
         System.out.print("Enter Your Group");
         Scanner val = new Scanner(System.in);
