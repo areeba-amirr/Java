@@ -1,6 +1,6 @@
 public class VariablesDatatypes {
       public static void main(String[] args) {
-        System.err.println("*********Variables and DataTypes in JAVA**********");
+        System.err.println("***********Variables and DataTypes in JAVA**********");
      
         int age; //declaration
         age = 10; //initialization
