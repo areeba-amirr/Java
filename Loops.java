@@ -17,8 +17,10 @@ public class Loops {
         // }
         // while(i <= num); //condition
         //For Loop
+        //intialization;condition;updation
         for(int i = 1; i <= num; i++){
             System.out.printf("%d\n",i);
         }
     }
 }
+ 
