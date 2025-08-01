@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Loops {
     public static void main(String[] args){
-        //While Loop
+        //While Loop(Pre Testing Loop)
         Scanner obj = new Scanner(System.in);
         int num = obj.nextInt();
         // int i = 1; //initialization 
@@ -9,14 +9,14 @@ public class Loops {
         //     System.out.printf("%d\n",i);
         //     i++; //updation
         // }
-        //Do While Loop
+        //Do While Loop (Post Testing Loop)
         // int i = 1; //initialization
         // do{
         //     System.out.printf("%d\n",i); 
         //     i++; //updation
         // }
         // while(i <= num); //condition
-        //For Loop
+        //For Loop (Definite Loop)
         //intialization;condition;updation
         for(int i = 1; i <= num; i++){
             System.out.printf("%d\n",i);
