@@ -1,4 +1,4 @@
-// import java.util.Scanner;
+import java.util.Scanner;
 public class MultiDimensionalArrays {
     public static void main(String[] args) {
         // ***********************2D Array********************
@@ -34,7 +34,7 @@ public class MultiDimensionalArrays {
         }
         //User Input
         // int [][] age = new int[4][4];
-        // Scanner obj = new Scanner(System.in);
+        Scanner obj = new Scanner(System.in);
         // for(int i = 0;i <= age.length-1; i++){
         //     for(int j = 0;j <= age.length-1; j++ ){
         //     age[i][j] = obj.nextInt();
@@ -56,6 +56,24 @@ public class MultiDimensionalArrays {
         // }
         // System.out.println();
         // }
+        System.out.print("Enter No of Rows:");
+        int rows = obj.nextInt();
+        System.out.print("Enter No of Coloumns:");
+        int col = obj.nextInt();
+        obj.nextLine();//to consume empty lines
+        String [][] subjects = new String[rows][col];
+        for(int i = 0; i < subjects.length; i++){
+            for(int j = 0 ;j < subjects[i].length;j++){
+                System.out.print("Enter value:");
+                subjects[i][j] = obj.nextLine();
+            }
+        }
+        for(int i = 0;i < subjects.length;i++){
+            for(int j = 0;j < subjects[i].length;j++){
+                System.out.print(subjects[i][j]+ " ");
+            }
+            System.out.println();
+        }
 
     }
 }
