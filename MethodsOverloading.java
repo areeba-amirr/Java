@@ -1,4 +1,4 @@
-public class MethodsOverolading {
+public class MethodsOverloading {
     static void changeVariable(int no){
         no = 25;
     }
