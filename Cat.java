@@ -13,7 +13,7 @@ public class Cat extends Animal{
         cObj.no4 = 2;
         // cObj.no3 = 3; //error beacuse access modifier is default
         cObj.display(cObj.no2,cObj.no4);
-        //inherit getters and setters
+        //inherit getters and setters from Animal Class
         cObj.setN1(10);
         cObj.setN2(20);
         System.out.println(cObj.getN1());
