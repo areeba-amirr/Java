@@ -20,7 +20,7 @@ class car1 extends Vehicle{
 class bike1 extends Vehicle{
     @Override
     public void start(){
-        System.out.println("Bike Starts");
+        System.out.println("Bike Starts");//Method Signature
      }
 }
 public class Abstract {
@@ -29,6 +29,7 @@ public class Abstract {
       cObj.start();
       bike1 bObj = new bike1();
       bObj.start();
+    //   Vehicle v = new Vehicle;// error
        Vehicle vObj = new car1();
        vObj.start();
        Vehicle vObj1 = new bike1();
